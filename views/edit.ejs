@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/style.css">
+    <title>Edit Page</title>
+</head>
+<body>
+    <h1>Edit Flower</h1>
+		<div>
+			<form action="/flowers/<%=productObj._id%>?_method=PUT" method="POST">
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" value="<%=productObj.name%>" /><br>
+				<br>
+				<label for="description">Desc</label>
+				<input type="text" name="description" id="description" value="<%=productObj.description%>" /><br>
+				<br>
+				<label for="img">Image</label>
+				<input type="text" name="img" id="img" value="<%=productObj.img%>" /><br>
+				<br>
+				<label for="price">Price</label>
+				<input type="number" name="price" id="price" value="<%=productObj.price%>" /><br>
+				<br>
+				<label for="qty">Qty</label>
+				<input type="number" name="qty" id="qty" value="<%=productObj.qty%>" /><br>
+				<br>
+				<input type="submit" value="Save Product" />
+			</form>
+		</div>
+        <nav><a href="/flowers/<%=productObj._id%>">BACK</a></nav>
+</body>
+</html>
