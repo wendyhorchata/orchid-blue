@@ -1,4 +1,4 @@
- ## Orchid Blue 
+ ## Blue Orchid
  My Project is a simple website that uses CRUD. The goal of the website is to allow users to buy different flowers available. The goal is is to be able to update, delete, and buy flowers.
 
 
@@ -30,12 +30,24 @@ qty: { type: number, required: true} ,
 
 })
 
-## Schedule
+## Tools Used
+Javascript
+Mongoose
+Express
+EJS
+Node
+CSS
 
- 
 
-Day 1: Get project approved and create a game plan on how to start writing my code
-Day 2: Complete Crud App with MVP
-Day 3: Touch base with Squad Leader with any help I might have / work on CSS
-Day 4: Deploy App on Heroku
+## Screenshots 
+![Website Screenshot](./Images/Website1.png)
+![Website Screenshot](./Images/website2.png)
+![Website Screenshot](./Images/Website3.png)
+![Website Screenshot](./Images/website4.png)
+![Website Screenshot](./Images/website5.png)
 
+## Wireframe
+![WireFrame](./Images/wireframe1.png)
+![WireFrame](./Images/wireframe2.png)
+![WireFrame](./Images/wireframe3.png)
+![WireFrame](./Images/wireframe4.png)
