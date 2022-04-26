@@ -5,7 +5,7 @@ const ejs = require('ejs')
 
 
 //Index
-router.get('/flowers', (req, res) => {
+router.get('/', (req, res) => {
 	try{
 		 Product.find({}, (err, products) => {
 		if (err) console.log(err);
