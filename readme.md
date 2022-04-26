@@ -1,5 +1,5 @@
  ## Blue Orchid
- My Project is a simple website that uses CRUD. The goal of the website is to allow users to buy different flowers available. The goal is is to be able to update, delete, and buy flowers.
+ My Project is a simple website that uses CRUD. The goal of the website is to allow users to buy different flower bouquets. The goal is is to be able to update, delete, and buy flowers.
 
 
 ## Routes
@@ -40,9 +40,9 @@ CSS
 
 
 ## Screenshots 
-![Website Screenshot](./Images/Website1.png)
+![Website Screenshot](./Images/website1.png)
 ![Website Screenshot](./Images/website2.png)
-![Website Screenshot](./Images/Website3.png)
+![Website Screenshot](./Images/website3.png)
 ![Website Screenshot](./Images/website4.png)
 ![Website Screenshot](./Images/website5.png)
 
