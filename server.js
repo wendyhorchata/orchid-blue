@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true})); // parses url encoded bodies
 app.use(methodOverride('_method'));
 app.use('/', routes)
 
-mongoose.connect (process.env.DATABASE_URL || "mongodb+srv://SEI:cataleya@cluster0.vplql.mongodb.net/products?retryWrites=true&w=majority") 
+mongoose.connect (process.env.DATABASE_URL || "") 
 mongoose.connection
   .on("connected", () => { console.log("Connected to mongoose!") })
   .on("close", (err) => { console.log("mongoose disconnected", err) })
