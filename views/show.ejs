@@ -8,25 +8,29 @@
     <title>Show Page</title>
 </head>
 <body>
-    <h1>Show Page</h1>
     <div>
+    <h1>Show Page</h1>
+    <div class ="container">
+        <div class ="content flex-center">
         <img src="<%=productObj.img%>" alt="<%=productObj.name%>" />
         <ul>
-            <li><%=productObj.name%></li>
+            <li> <h3><%=productObj.name%></h3></li>
             <li><%=productObj.description%></li>
-            <li><%=productObj.price%></li>
-            <li><%=productObj.qty%></li>
+            <li>Price: $<%=productObj.price%></li>
+            <li>Quantity: <%=productObj.qty%></li>
         </ul>
     </div>
-    <form action="/flowers/<%=productObj._id%>/buy?_method=PUT" method="POST">
+    <form class ="flex-center" action="/flowers/<%=productObj._id%>/buy?_method=PUT" method="POST">
         <label for="amt">Amount</label>
         <input type="number" name="qty" id="amt">
         <input type="submit" value="BUY">
     </form>
-    <nav><a href="/flowers/<%=productObj._id%>/edit">EDIT</a></nav><br>
-    <form action="/flowers/<%=productObj._id%>?_method=DELETE" method="POST">
+    <nav class ="flex-center"><a href="/flowers/<%=productObj._id%>/edit">EDIT</a></nav><br>
+    <form class ="flex-center" action="/flowers/<%=productObj._id%>?_method=DELETE" method="POST">
         <input type="submit" value="DELETE" /><br>
     </form>
-    <nav><a href="/flowers">BACK</a></nav>
+    <nav class ="flex-center"><a href="/flowers">BACK</a></nav>
+</div>
+</div>
 </body>
 </html>

@@ -52,9 +52,39 @@ max-width: 100%;
 }
 
 
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
 
+}
 
+.container img {
+    max-width: 300px;
+}
 
+.content {
+    max-width: 400px;
+    width: 100%,
+}
+
+.flex-center {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
 
 
 

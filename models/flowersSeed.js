@@ -5,47 +5,47 @@ mongoose.connect (process.env.DATABASE_URL)
     
 const flowersSeedData = [
        {
-        name: 'Orchid',
-        description: 'Is one of the largest families of flowering plants from the genus Orchis.',
-        img: 'https://i.imgur.com/P3YpU39.jpg',
-        price: 7.50,
+        name: 'Orchid Galore',
+        description: 'Spark a vision in their eyes with gorgeous blooms that are sure to win them over! Show them how much you care with bells of Ireland, green trick dianthus, and white orchids',
+        img: 'https://i.imgur.com/VytCBgE.jpg',
+        price: 80.00,
         qty: '12'
         },
         {
-        name: 'Red Rose',
-        description: 'Is a flowering plant of the genus Rosa, whose stems are armed with sharp prickles.',
-        img: 'https://i.imgur.com/gucYguT.jpg',
-        price: 8,
+        name: 'Love Roses',
+        description: 'This vase of brilliant red roses is an elegant and natural way to say, "I love you." Truly a classic for a reason, these dozen roses will turn the romance all the way up!',
+        img: 'https://i.imgur.com/yxnQrMc.jpg',
+        price: 90.00,
         qty: '12'
         },
         {
         name: 'Stargazer Lily',
-        description: 'Are known for their fragrant perfume. Thy can grow to a height of 36 inches with a spread of 10 to 14 inches.',
-        img: 'https://i.imgur.com/Q1nhvuX.jpg',
-        price: 4.80,
+        description: 'This exquisite bouquet is a clear beauty! With picturesque red stargaze Lilys, ravishing white hydrangeas, Timeless and classic, this graceful bouquet is perfect for any celebration or season!',
+        img: 'https://i.imgur.com/aDkRTpX.jpg',
+        price: 60.80,
         qty: '12'
         },
             
         {
-        name: 'Sunflower',
-        description: 'Are the most well-known species whose round flower heads in combination with the ligules look like the sun.',
-        img: 'https://i.imgur.com/TB4o4Kh.jpg',
-        price: 4.00,
+        name: 'Sunny Escape Flower Arrangement',
+        description: 'Bring home the beauty of sunflowers. This arrangement is bursting with bright sunflowers and yellow button poms. It is perfect for a pick-me-up or to let someone know they are your sunshine!',
+        img: 'https://i.imgur.com/wW3yIT0.jpg',
+        price: 49.99,
         qty: '12'    
         },
         {
-        name: 'Tulip',
-        description: 'Is from the genus Tulipa, which are spring blooming perennial herbaceous geophytes.',
-        img: 'https://i.imgur.com/peWwOG3.jpg',
-        price: 5.75,
+        name: 'Tulip Trio',
+        description: 'This flawless and colorful arrangement is sure to impress! You can not go wrong with these breathtaking lavender, pretty pink, and wondrous yellow tulips. They are sure to bring life, light, and happiness to any room or occasion!',
+        img: 'https://i.imgur.com/kIXu6GD.jpg',
+        price: 50.75,
         qty: '12'
         },
             
         {
-        name: 'Violets',
-        description: 'Is from the genus viola. The most common violet is the blue violet.',
-        img: 'https://i.imgur.com/VlDBDJd.jpg',
-        price: 4.90,
+        name: 'Very Violet Bouquet',
+        description: 'This stunning arrangement is a purple lovers dream! Featuring lovely purple mini carnations, lavender spider mums, fuchsia alstroemeria, and more, Very Violet is a regal display of purple. Surprise someone you love with this beauty today!',
+        img: 'https://i.imgur.com/Xt1iKwg.jpg',
+        price: 40.00,
         qty: '12'
         }, 
 
