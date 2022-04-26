@@ -18,7 +18,7 @@ app.use('/', routes)
 mongoose.connect (process.env.DATABASE_URL || "mongodb+srv://SEI:cataleya@cluster0.vplql.mongodb.net/products?retryWrites=true&w=majority") 
 mongoose.connection
   .on("connected", () => { console.log("Connected to mongoose!") })
-  .on("close", () => { console.log("mongoose disconnected") })
+  .on("close", (err) => { console.log("mongoose disconnected", err) })
   .on("error", (error) => { console.log(error) });
 
 
