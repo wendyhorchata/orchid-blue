@@ -43,7 +43,7 @@ router.post('/flowers', (req, res) => {
 	Product.create(req.body, (err, product) => {
 		if (err) console.log(err);
 		console.log(product);
-		res.redirect('/flowers');
+		res.redirect('/');
 	});
 });
 
@@ -52,7 +52,7 @@ router.delete('/flowers/:id', (req, res) => {
 	Product.findByIdAndRemove(req.params.id, (err, product) => {
 		if (err) console.log(err);
 		console.log(product);
-		res.redirect('/flowers');
+		res.redirect('/');
 	});
 });
 
