@@ -37,12 +37,13 @@ Express
 EJS
 Node
 CSS
+HTML
+MockFlow
 
 
 ## Screenshots 
-![Website Screenshot](./Images/website1.png)
+
 ![Website Screenshot](./Images/website2.png)
-![Website Screenshot](./Images/website3.png)
 ![Website Screenshot](./Images/website4.png)
 ![Website Screenshot](./Images/website5.png)
 
